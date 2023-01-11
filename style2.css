@@ -1,0 +1,190 @@
+.nav{
+    display: flex;
+    background-color:#1A1A1D;
+    height: 7vh;
+    width: 100vw;
+    align-items: center;
+    justify-content:space-between;
+}
+.navleft{
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 700;
+    justify-self: left;
+    margin: 0px 5vw;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+}
+#openor{
+    cursor: pointer;
+}
+
+.navmiddle i{
+    color: aliceblue;
+    margin: 3px;
+}
+#search{
+    height: 3.5vh;
+    width: 30vw;
+    border: .2vw solid antiquewhite;
+    border-radius: 1vw;
+    padding: 0 2px;
+}
+.navright{
+    margin: 0px 5vw;
+}
+.navright a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #1A1A1D;
+    border-radius: 1vw;
+    padding: .12vw .8vw;
+    color: black;
+    font-size: 18px;
+}
+    
+.links-close{
+    display: none;
+}
+.links-open{
+    display: flex;
+    flex-direction: column;
+    line-height: 10vh;
+    height: 93vh;
+    width: 28vw;
+    background-color: #020411;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: medium;
+    z-index: 1;
+    position: absolute;
+}
+.links-open a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-radius: 2vw;
+    margin: 0 2vw;
+    color: azure;
+}
+.internal{
+    display: none;
+}
+.dikh {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 51vh;
+    background-color: #020411;
+    left: 26vw;
+    width: 16vw;
+    text-align: center;
+}
+@media screen and (max-width : 400px) {
+    .links-open{
+        font-size: 15px;
+    }
+    .foot{
+        font-size: 1px;
+    }
+}
+@media screen and (max-width : 500px){
+    .navleft{
+        font-size: 15px;
+    }
+    .navright{
+        font-size: 15px;
+    }
+    .foot{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 350px) {
+    .nav{
+        height: 12vh;
+    }
+    .navleft{
+        position: absolute;
+        top: 1.5vh;
+    }
+    .navright{
+        position: absolute;
+        top: 1.5vh;
+        right: 3px;
+    }
+    .navmiddle{
+        position: absolute;
+        left: 15vw;
+        top: 7.3vh;
+    }
+    #search{
+        width: 70vw;
+    }
+    .foot{
+        font-size: 10px;
+    }
+}
+main{
+    height: calc(100vh - 10vh - 10vh);
+}
+.glass{
+    margin-top: 8vh;
+}
+
+.glass-heading{
+    max-width: 80vw;
+    margin: auto;
+}
+
+.glass-heading button{
+    pointer-events: none;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    font-weight: 900;
+}
+.glass-images{
+    display: flex;
+    height: 30vh;
+    max-width: 80vw;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+.lamps{
+    margin-top: 8vh;
+}
+
+.lamps-heading{
+    max-width: 80vw;
+    margin: auto;
+}
+
+.lamps-heading button{
+    pointer-events: none;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+.lamps-images{
+    display: flex;
+    height: 30vh;
+    max-width: 80vw;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+.foot{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
